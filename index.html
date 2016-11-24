@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>polymer</title>
+    <link rel="import" href="bower_components/iron-ajax/iron-ajax.html">
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+  </head>
+  <body>
+    <demo-element></demo-element>
+    <dom-module id="demo-element">
+      <template>
+        <iron-ajax></iron-ajax>
+      </template>
+    </dom-module>
+
+  </body>
+
+  <script>
+    HTMLImports.whenReady(function() {
+      Polymer({
+        is: 'demo-element'
+      })
+    })
+  </script>
+</html>
