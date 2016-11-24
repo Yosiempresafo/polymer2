@@ -12,7 +12,13 @@
     <demo-element></demo-element>
     <dom-module id="demo-element">
       <template>
-        <iron-ajax></iron-ajax>
+        <iron-ajax
+          auto
+          url="http://swapi.co/api/people/"
+          handle-as="json"
+          on-response="apiStarWars"
+          last-response="{{ response }}">
+        </iron-ajax>
       </template>
     </dom-module>
 
