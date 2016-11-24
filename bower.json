@@ -3,7 +3,8 @@
   "main": "polymer2-element.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
-    "iron-ajax": "PolymerElements/iron-ajax#^1.4.3"
+    "iron-ajax": "PolymerElements/iron-ajax#^1.4.3",
+    "paper-card": "PolymerElements/paper-card#^1.1.4"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
